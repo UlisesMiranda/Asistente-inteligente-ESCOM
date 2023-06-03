@@ -142,6 +142,10 @@ nlu:
     - ¿Qué puedes decirme acerca de la ESCOM?
     - Háblame de la escuela superior de computo, por favor.
     - Quiero conocer más sobre ESCOM del IPN.
+    - que es la escuela superior de computo
+    - platicame sobre la escuela superior de computo
+    - hablame sobre la escuela superior de computo
+    - puedes darme informacion sobre la escuela superior de computo
 
 - intent: acronimo_escom
   examples: |
@@ -150,6 +154,8 @@ nlu:
     - ¿Cuál es el significado de la sigla ESCOM?
     - Necesito saber el acrónimo de ESCOM.
     - ¿Puedes decirme qué quiere decir ESCOM?
+    - que significan las siglas de escom
+    - dime el signficado del acronimo de escom
 
 - intent: pregunta_historia_escom
   examples: |
@@ -159,6 +165,13 @@ nlu:
     - Explícame la historia de la Escuela Superior de Cómputo
     - ¿Desde cuándo existe ESCOM?
     - ¿Cómo surgió ESCOM?
+    - como es la historia de escom
+    - dime la hisotoria de escom
+    - de que trata la historia de escom
+    - puedes hablarme sobre la hisotria de la escom
+    - tengo mucho interes en saber la historia de escom
+    - cual es la historia de la esucela superior de computo
+    - de que habla la historia de la escuela superior de computo
 
 - intent: programas_academicos_escom
   examples: |
@@ -174,6 +187,12 @@ nlu:
     - Necesito saber los nombres de los programas de estudio en ESCOM.
     - ¿Puedes decirme las opciones de estudio y sus nombres en ESCOM?
     - Quiero conocer los nombres de los programas académicos en ESCOM.
+    - quisiera saber las carreras impartidas de la escom
+    - cuales son las carreras que se imparten en la escom
+    - me das informacion sobre las carreras o programas que se pueden estudiar en escom
+    - cuantas son las carreas de la escom
+    - que carreras se ofrecen en la escuela superior de computo
+
 
 - intent: pregunta_director
   examples: |
@@ -181,6 +200,9 @@ nlu:
     - Dime el nombre del director de ESCOM.
     - ¿Puedes decirme quién ocupa el cargo de director en ESCOM?
     - Necesito saber quién está a cargo de ESCOM como director.
+    - quien es el dire de la escom
+    - quien es el jefazo de la escom
+    - puedes decirme el director de la escom
 
 - intent: pregunta_decanato
   examples: |
@@ -188,13 +210,15 @@ nlu:
     - Dime quién es el decano en ESCOM.
     - ¿Puedes decirme quién ocupa el cargo de decano en ESCOM?
     - Necesito saber quién está a cargo de ESCOM como decano.
+    - dime el decano de la escom
 
 - intent: pregunta_coordinador_enlace
   examples: |
     - ¿Quién es el coordinador de enlace en ESCOM?
     - Dime quién es el coordinador de enlace en ESCOM.
-    - ¿Puedes decirme quién ocupa el cargo de coordinador de enlace en ESCOM?
-    - Necesito saber quién está a cargo de la coordinación de enlace en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de coordinador de enlace y Gestión Técnica en ESCOM?
+    - Necesito saber quién está a cargo de la coordinación de enlace y Gestión Técnica en ESCOM.
+    - quien es la persona que se encarga de la coordinación de enlace de la escom
 
 - intent: pregunta_unidad_informatica
   examples: |
@@ -202,6 +226,7 @@ nlu:
     - Dime quién es responsable de la unidad informática en ESCOM.
     - ¿Puedes decirme quién ocupa el cargo de la unidad informática en ESCOM?
     - Necesito saber quién está a cargo de la unidad informática en ESCOM.
+    - quien es la persona encarga del area de la unidad informatica 
 
 - intent: pregunta_subdirector
   examples: |
@@ -209,6 +234,7 @@ nlu:
     - Dime quién es el subdirector en ESCOM.
     - ¿Puedes decirme quién ocupa el cargo de subdirector en ESCOM?
     - Necesito saber quién está a cargo de ESCOM como subdirector.
+    - quien es el encargado de la subdireccion academica de escom
 
 - intent: pregunta_departamento_formacion_basica
   examples: |
@@ -291,6 +317,10 @@ nlu:
     - Dime cuál es la visión de la Escuela Superior de Cómputo.
     - ¿Puedes explicar cómo se visualiza ESCOM en el futuro?
     - Necesito saber cuál es la visión de ESCOM.
+    - puedes decirme la vision de la escom
+    - platicame sobre la vision de la escuela superior de computo
+    - de que trata la vision de la escom
+    - cuentame la vision de la escom
 
 - intent: pregunta_politica_calidad
   examples: |
@@ -298,6 +328,10 @@ nlu:
     - Dime cuál es la política de calidad de la Escuela Superior de Cómputo.
     - ¿Puedes explicar la política de calidad que sigue ESCOM?
     - Necesito saber cuál es la política de calidad de ESCOM.
+    - de que habla la politica de calidad de la escuela superior de computo
+    - me gustaria saber cual es la politica de calidad de escom
+    - de que trata la politica de calidad de la escom
+    - cuentame la politica de calidad de la escom
 
 - intent: pregunta_ubicacion_escom
   examples: |
@@ -305,6 +339,10 @@ nlu:
     - Dime la dirección de la Escuela Superior de Cómputo.
     - ¿Puedes decirme la ubicación exacta de ESCOM?
     - Necesito saber la dirección de ESCOM.
+    - Cual es la direccion de la escom?
+    - cual es la ubicacion de la escom
+    - como llego a la escom
+    - en que parte se encuentra la escom
 
 - intent: pregunta_medios_contacto_escom
   examples: |
@@ -312,6 +350,69 @@ nlu:
     - Dime los medios para contactar a la Escuela Superior de Cómputo.
     - ¿Puedes decirme cómo puedo comunicarme con ESCOM?
     - Necesito saber los medios de contacto de ESCOM.
+    - como puedo contactar a la escom
+    - cual es el numero de la escom
+    - cuales son las redes sociales de escom
+    - cuales son los principales medios para contactar a la escom
+    - cuales son las redes de escom
+    - como puedo comunicarme con la escom
+    - cual es el telefono de la escom
+    - a donde puedo contactar a la escom
+    - me gustaria saber los medios de contacto de la escom
 
+- intent: pregunta_conformacion_consejo_tecnico
+  examples: |
+    - ¿como esta conformado el Consejo Técnico Consultivo Escolar ?
+    - ¿como esta formado el Consejo Técnico Consultivo Escolar?
+    - quienes representan el Consejo Técnico Consultivo Escolar
+    - quienes son los que forman el Consejo Técnico Consultivo Escolar 
+    - represantes del consejo tecnico consultivo escolar
+    - dime los representantes del consejo tecnico consultivo escolar 2022 2023
+    - me gustaria saber como esta formado el Consejo Técnico Consultivo Escolar 
+    - puedes platicarme sobre el Consejo Técnico Consultivo Escolar 
+    - tengo curiosidad sobre el Consejo Técnico Consultivo Escolar 
+    - platicame sobre el Consejo Técnico Consultivo Escolar 
+
+- intent: pregunta_inteligencia_artificial
+  examples: |
+    - ¿de que trata la carrera de inteligencia artificial de la escom?
+    - puedes platicarme de que va la carrera de inteligencia artificial de la escom?
+    - Platicame sobre la carrera de ingenieria en inteligencia artificial
+    - hablame sobre la ingeniera en inteligencia artificial en escom
+    - puedes darme datos sobre la carrera en ia
+    - que es la carrera de inteligencia artificial
+    - necesito saber el programa academico de ingenieria en inteligencia artificial
+    - de que trata el programa academico en ia
+    - de que trata el programa academico de inteligencia artificial
+    - estoy muy interesado en la carrera de inteligencia artificial
+
+- intent: pregunta_ciencias_datos
+  examples: |
+    - ¿de que trata la carrera de ciencias de datos de la escom?
+    - puedes platicarme de que va la carrera de ciencias de datos de la escom?
+    - Platicame sobre la carrera de licenciatura en ciencias de datos
+    - hablame sobre la licenciatura en ciencias de datos en escom
+    - puedes darme datos sobre la carrera en ciencias
+    - que es la carrera de ciencias de datos
+    - necesito saber el programa academico de licenciatura en ciencias de datos
+    - de que trata el programa academico en ciencias
+    - de que trata el programa academico de ciencias de datos
+    - estoy muy interesado en la carrera de ciencias de datos
+
+- intent: pregunta_sistemas_computacionales
+  examples: |
+    - ¿de que trata la carrera de sistemas computacionales de la escom?
+    - puedes platicarme de que va la carrera de sistemas computacionales de la escom?
+    - Platicame sobre la carrera de ingenieria en sistemas computacionales
+    - hablame sobre la ingeniera en sistemas computacionales en escom
+    - puedes darme datos sobre la carrera en ciencias
+    - que es la carrera de sistemas computacionales
+    - necesito saber el programa academico de ingenieria en sistemas computacionales
+    - de que trata el programa academico en ciencias
+    - de que trata el programa academico de sistemas computacionales
+    - estoy muy interesado en la carrera de sistemas computacionales
+    
+  
+    
 
 

@@ -42,6 +42,11 @@ rules:
     - intent: programas_academicos_escom
     - action: utter_cuantasCarreras
 
+- rule: Responder al intent 'pregunta_historia_escom'
+  steps:
+    - intent: pregunta_historia_escom
+    - action: utter_historiaEscom
+
 - rule: Responder al intent 'pregunta_director'
   steps:
     - intent: pregunta_director
@@ -136,6 +141,23 @@ rules:
   steps:
     - intent: pregunta_medios_contacto_escom
     - action: utter_mediosContactoEscom
+
+- rule: Responder al intent 'pregunta_inteligencia_artificial'
+  steps:
+    - intent: pregunta_inteligencia_artificial
+    - action: utter_inteligencia_artificial
+
+- rule: Responder al intent 'pregunta_ciencias_datos'
+  steps:
+    - intent: pregunta_ciencias_datos
+    - action: utter_ciencias_datos
+
+- rule: Responder al intent 'pregunta_sistemas_computacionales'
+  steps:
+    - intent: pregunta_sistemas_computacionales
+    - action: utter_sistemas_computacionales
+
+
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:

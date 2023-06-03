@@ -32,10 +32,11 @@ intents:
   - pregunta_politica_calidad
   - pregunta_ubicacion_escom
   - pregunta_medios_contacto_escom
+  - pregunta_conformacion_consejo_tecnico
+  - pregunta_inteligencia_artificial
+  - pregunta_ciencias_datos
+  - pregunta_sistemas_computacionales
 
-
-actions:
-  - action_default_fallback
 
 responses:
 #  utter_greet:
@@ -58,7 +59,7 @@ responses:
   - text: "Soy un bot realizado con Rasa."
 
   utter_saludar:
-  - text: "Holaa soy MR BOT.\nIntenta preguntar -¿Qué es ESCOM?"
+  - text: "Hola soy MR BOT.\nIntenta preguntar -¿Qué es ESCOM?"
 
   utter_despedirse:
     - text: "Adios, espero haberte ayudado"
@@ -70,7 +71,7 @@ responses:
    y Licenciatura en Ciencia de Datos."
 
   utter_significadoESCOM:
-    - text: "Escuela Superior de Computo"
+    - text: "ESCOM signfica: Escuela Superior de Computo"
 
   utter_cuantasCarreras:
   - text: "En ESCOM existen 4 programas acádemicos, donde 3 de ellos son en modalidad escolaridad, los cuales son:
@@ -133,8 +134,7 @@ responses:
 
   utter_comoCompuestoOrganigrama:
     - text: "El organigrama de la ESCOM esta compuesto por diferentes departamentos. Entre ellos Direccón, Subdirección Académica,
-    Subdirección de Servicios Educativos e Integración Social, Subdirección Administrativa."
-    - text: "Pregunta por los encargados de cada area si gustas."
+    Subdirección de Servicios Educativos e Integración Social, Subdirección Administrativa.\n Pregunta por los encargados de cada area si gustas."
 
   utter_mision:
     - text: "La Escuela Superior de Cómputo es una Unidad Académica líder en la formación de profesionales integrales
@@ -159,10 +159,35 @@ responses:
     Madero. C. P. 07738. Ciudad de México."
 
   utter_mediosContactoEscom:
-    - text: "Tel. 57296000 Ext. 46188"
-    - text: "direccion_escom@ipn.mx"
-    - text: "Facebook: escomipnmx"
-    - text: "Twitter: escomunidad "
+    - text: "Tel. 57296000 Ext. 46188\n
+    direccion_escom@ipn.mx\n
+    Facebook: escomipnmx\n
+    Twitter: escomunidad"
+
+  utter_conformacion-consejo-tecnico:
+    - text: "Es formado por el Director, Subdirectores del plantel, Jefe de la SEPI, Jefes de Departamentos Académicos,
+     el Decano y los Representantes Sindicales de Docentes y Personal de Apoyo a la Educación; además de docentes representantes
+      de cada Departamento Académico, así como de alumnos representantes de todos los semestres."
+
+  utter_inteligencia_artificial:
+    - text: "La carrera en ingeniería en inteligencias artificial tiene como objetivo formar expertos capaces de desarrollar
+     sistemas inteligentes utilizando diferentes metodologías en las diferentes etapas de desarrollo y aplicando algoritmos
+      en áreas como aprendizaje de máquina, procesamiento automático de lenguaje natural, visión artificial y modelos
+       bioinspirados para atender las necesidades de los diferentes sectores de la sociedad a través de la generación 
+       de procesos y soluciones innovadoras."
+
+  utter_ciencias_datos:
+    - text: "La carrera en licenciatura en ciencias de datos tiene como objetivo formar expertos capaces de extraer 
+    conocimiento implícito y complejo, potencialmente útil a partir de grandes conjuntos de datos, utilizando métodos
+    de inteligencia artificial, aprendizaje de máquina, estadística, sistemas de bases de datos y modelos matemáticos 
+    sobre comportamientos probables, para apoyar la toma de decisiones de alta dirección."
+
+  utter_sistemas_computacionales:
+    - text: "La carrea en ingeniera en sistemas computacionales tiene como objetivo formar Formar ingenieros en sistemas 
+    computacionales de sólida preparación científica y tecnológica en los ámbitos del desarrollo de software y hardware, 
+    que propongan, analicen, diseñen, desarrollen, implementen y gestionen sistemas computacionales a partir de tecnologías 
+    de vanguardia y metodologías, normas y estándares nacionales e internacionales de calidad; líderes de equipos de trabajo 
+    multidisciplinarios y multiculturales, con un alto sentido ético y de responsabilidad."
 
   utter_default:
     - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 
