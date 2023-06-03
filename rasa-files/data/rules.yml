@@ -1,0 +1,139 @@
+version: "3.1"
+
+rules:
+
+#- rule: Say goodbye anytime the user says goodbye
+#  steps:
+#  - intent: goodbye
+#  - action: utter_goodbye
+#
+#- rule: Say 'I am a bot' anytime the user challenges
+#  steps:
+#  - intent: bot_challenge
+#  - action: utter_iamabo
+
+- rule: Responder al intent 'bot_challenge'
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: Responder al intent 'saludar'
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+
+- rule: Responder al intent 'despedirse'
+  steps:
+    - intent: despedirse
+    - action: utter_despedirse
+
+- rule: Responder al intent 'definicion_escom'
+  steps:
+    - intent: definicion_escom
+    - action: utter_queEsEscom
+
+- rule: Responder al intent 'acronimo_escom'
+  steps:
+    - intent: acronimo_escom
+    - action: utter_significadoESCOM
+
+- rule: Responder al intent 'programas_academicos_escom'
+  steps:
+    - intent: programas_academicos_escom
+    - action: utter_cuantasCarreras
+
+- rule: Responder al intent 'pregunta_director'
+  steps:
+    - intent: pregunta_director
+    - action: utter_quienDirector
+
+- rule: Responder al intent 'pregunta_decanato'
+  steps:
+    - intent: pregunta_decanato
+    - action: utter_quienDecanato
+
+- rule: Responder al intent 'pregunta_coordinador_enlace'
+  steps:
+    - intent: pregunta_coordinador_enlace
+    - action: utter_quienCoordEnlace
+
+- rule: Responder al intent 'pregunta_unidad_informatica'
+  steps:
+    - intent: pregunta_unidad_informatica
+    - action: utter_unidadInformatica
+
+- rule: Responder al intent 'pregunta_subdirector'
+  steps:
+    - intent: pregunta_subdirector
+    - action: utter_quienSubdirector
+
+- rule: Responder al intent 'pregunta_departamento_formacion_basica'
+  steps:
+    - intent: pregunta_departamento_formacion_basica
+    - action: utter_dptoFormacionBasica
+
+- rule: Responder al intent 'pregunta_ciencias_ingenieria_computo'
+  steps:
+    - intent: pregunta_ciencias_ingenieria_computo
+    - action: utter_cienciaseIngenieriaCompu
+
+- rule: Responder al intent 'pregunta_ingenieria_sistemas'
+  steps:
+    - intent: pregunta_ingenieria_sistemas
+    - action: utter_ingeSistemas
+
+- rule: Responder al intent 'pregunta_servicios_educativos'
+  steps:
+    - intent: pregunta_servicios_educativos
+    - action: utter_serviciosEducativos
+
+- rule: Responder al intent 'pregunta_departamento_gestion_escolar'
+  steps:
+    - intent: pregunta_departamento_gestion_escolar
+    - action: utter_dptoGestionEscolar
+
+- rule: Responder al intent 'pregunta_servicios_estudiantiles'
+  steps:
+    - intent: pregunta_servicios_estudiantiles
+    - action: utter_serviciosEstudiantiles
+
+- rule: Responder al intent 'pregunta_encargado_becas'
+  steps:
+    - intent: pregunta_encargado_becas
+    - action: utter_becas
+
+- rule: Responder al intent 'pregunta_subdireccion_administrativa'
+  steps:
+    - intent: pregunta_subdireccion_administrativa
+    - action: utter_subdireccionAdmin
+
+- rule: Responder al intent 'pregunta_composicion_organigrama'
+  steps:
+    - intent: pregunta_composicion_organigrama
+    - action: utter_comoCompuestoOrganigrama
+
+- rule: Responder al intent 'pregunta_mision_escom'
+  steps:
+    - intent: pregunta_mision_escom
+    - action: utter_mision
+
+- rule: Responder al intent 'pregunta_vision_escom'
+  steps:
+    - intent: pregunta_vision_escom
+    - action: utter_vision
+
+- rule: Responder al intent 'pregunta_politica_calidad'
+  steps:
+    - intent: pregunta_politica_calidad
+    - action: utter_politicaCalidad
+
+- rule: Responder al intent 'pregunta_ubicacion_escom'
+  steps:
+    - intent: pregunta_ubicacion_escom
+    - action: utter_ubicacion
+
+- rule: Responder al intent 'pregunta_medios_contacto_escom'
+  steps:
+    - intent: pregunta_medios_contacto_escom
+    - action: utter_mediosContactoEscom
+

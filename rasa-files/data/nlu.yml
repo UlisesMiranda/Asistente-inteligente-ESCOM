@@ -1,0 +1,317 @@
+version: "3.1"
+
+nlu:
+#- intent: greet
+#  examples: |
+#    - hey
+#    - hello
+#    - hi
+#    - hello there
+#    - good morning
+#    - good evening
+#    - moin
+#    - hey there
+#    - let's go
+#    - hey dude
+#    - goodmorning
+#    - goodevening
+#    - good afternoon
+#
+#- intent: goodbye
+#  examples: |
+#    - cu
+#    - good by
+#    - cee you later
+#    - good night
+#    - bye
+#    - goodbye
+#    - have a nice day
+#    - see you around
+#    - bye bye
+#    - see you later
+#
+#- intent: affirm
+#  examples: |
+#    - yes
+#    - y
+#    - indeed
+#    - of course
+#    - that sounds good
+#    - correct
+#
+#- intent: deny
+#  examples: |
+#    - no
+#    - n
+#    - never
+#    - I don't think so
+#    - don't like that
+#    - no way
+#    - not really
+#
+#- intent: mood_great
+#  examples: |
+#    - perfect
+#    - great
+#    - amazing
+#    - feeling like a king
+#    - wonderful
+#    - I am feeling very good
+#    - I am great
+#    - I am amazing
+#    - I am going to save the world
+#    - super stoked
+#    - extremely good
+#    - so so perfect
+#    - so good
+#    - so perfect
+#
+#- intent: mood_unhappy
+#  examples: |
+#    - my day was horrible
+#    - I am sad
+#    - I don't feel very well
+#    - I am disappointed
+#    - super sad
+#    - I'm so sad
+#    - sad
+#    - very sad
+#    - unhappy
+#    - not good
+#    - not very good
+#    - extremly sad
+#    - so saad
+#    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: saludar
+  examples: |
+    - hola
+    - holap
+    - que onda
+    - quiubo
+    - holi
+    - holiwis
+    - alo
+    - hey
+    - hola mister bot
+    - oye
+    - hola hola
+    - buenas tardes
+    - buenos dias
+    - buen dia
+    - buenas noches
+    - buenas
+    - buenas buenas 
+    - que onda amigo
+
+- intent: despedirse
+  examples: |
+    - adios
+    - adiosito
+    - bye
+    - hasta luego
+    - nos vemos
+    - camara
+    - luego nos vemos
+    - hasta mañana
+    - bye bye
+    - chao
+    - te la lavas
+    - adios bro
+    - adios adios
+    - ten un buen dia
+
+- intent: definicion_escom
+  examples: |
+    - ¿Qué es ESCOM?
+    - ¿Puedes decirme qué es la ESCOM?
+    - Necesito información sobre ESCOM.
+    - ¿Podrías definir ESCOM por favor?
+    - Quiero saber qué es ESCOM.
+    - Dame información sobre ESCOM.
+    - Cuéntame más sobre la escuela superior de computo.
+    - ¿Puedes darme detalles sobre ESCOM?
+    - Necesito datos acerca de ESCOM.
+    - ¿Qué puedes decirme acerca de la ESCOM?
+    - Háblame de la escuela superior de computo, por favor.
+    - Quiero conocer más sobre ESCOM del IPN.
+
+- intent: acronimo_escom
+  examples: |
+    - ¿Qué significa ESCOM?
+    - Dime el acrónimo de ESCOM.
+    - ¿Cuál es el significado de la sigla ESCOM?
+    - Necesito saber el acrónimo de ESCOM.
+    - ¿Puedes decirme qué quiere decir ESCOM?
+
+- intent: pregunta_historia_escom
+  examples: |
+    - Cuéntame sobre la historia de ESCOM
+    - ¿Cuándo se fundó ESCOM?
+    - ¿Qué puedes decirme sobre el origen de ESCOM?
+    - Explícame la historia de la Escuela Superior de Cómputo
+    - ¿Desde cuándo existe ESCOM?
+    - ¿Cómo surgió ESCOM?
+
+- intent: programas_academicos_escom
+  examples: |
+    - ¿Cuántos programas académicos tiene ESCOM?
+    - Dime los programas de estudio disponibles en ESCOM.
+    - ¿Cuáles son las carreras que se imparten en ESCOM?
+    - Necesito información sobre los programas académicos de ESCOM.
+    - ¿Puedes decirme cuántas opciones de estudio hay en ESCOM?
+    - Quiero conocer los programas académicos que ofrece ESCOM.
+    - ¿Cuáles son los nombres de los programas académicos en ESCOM?
+    - Dime los nombres de las carreras en ESCOM.
+    - ¿Qué carreras se imparten en ESCOM y cuáles son sus nombres?
+    - Necesito saber los nombres de los programas de estudio en ESCOM.
+    - ¿Puedes decirme las opciones de estudio y sus nombres en ESCOM?
+    - Quiero conocer los nombres de los programas académicos en ESCOM.
+
+- intent: pregunta_director
+  examples: |
+    - ¿Quién es el director de ESCOM?
+    - Dime el nombre del director de ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de director en ESCOM?
+    - Necesito saber quién está a cargo de ESCOM como director.
+
+- intent: pregunta_decanato
+  examples: |
+    - ¿Quién es el decano de ESCOM?
+    - Dime quién es el decano en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de decano en ESCOM?
+    - Necesito saber quién está a cargo de ESCOM como decano.
+
+- intent: pregunta_coordinador_enlace
+  examples: |
+    - ¿Quién es el coordinador de enlace en ESCOM?
+    - Dime quién es el coordinador de enlace en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de coordinador de enlace en ESCOM?
+    - Necesito saber quién está a cargo de la coordinación de enlace en ESCOM.
+
+- intent: pregunta_unidad_informatica
+  examples: |
+    - ¿Quién está a cargo de la unidad informática en ESCOM?
+    - Dime quién es responsable de la unidad informática en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de la unidad informática en ESCOM?
+    - Necesito saber quién está a cargo de la unidad informática en ESCOM.
+
+- intent: pregunta_subdirector
+  examples: |
+    - ¿Quién es el subdirector de ESCOM?
+    - Dime quién es el subdirector en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de subdirector en ESCOM?
+    - Necesito saber quién está a cargo de ESCOM como subdirector.
+
+- intent: pregunta_departamento_formacion_basica
+  examples: |
+    - ¿Quién está a cargo del departamento de formación básica en ESCOM?
+    - Dime quién es responsable del departamento de formación básica en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo del departamento de formación básica en ESCOM?
+    - Necesito saber quién está a cargo del departamento de formación básica en ESCOM.
+
+- intent: pregunta_ciencias_ingenieria_computo
+  examples: |
+    - ¿Quién está a cargo del área de ciencias e ingeniería de cómputo en ESCOM?
+    - Dime quién es responsable del área de ciencias e ingeniería de cómputo en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo del área de ciencias e ingeniería de cómputo en ESCOM?
+    - Necesito saber quién está a cargo del área de ciencias e ingeniería de cómputo en ESCOM.
+
+- intent: pregunta_ingenieria_sistemas
+  examples: |
+    - ¿Quién está a cargo de la carrera de ingeniería en sistemas en ESCOM?
+    - Dime quién es responsable de la carrera de ingeniería en sistemas en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de la carrera de ingeniería en sistemas en ESCOM?
+    - Necesito saber quién está a cargo de la carrera de ingeniería en sistemas en ESCOM.
+
+- intent: pregunta_servicios_educativos
+  examples: |
+    - ¿Quién está a cargo de los servicios educativos en ESCOM?
+    - Dime quién es responsable de los servicios educativos en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de los servicios educativos en ESCOM?
+    - Necesito saber quién está a cargo de los servicios educativos en ESCOM.
+
+- intent: pregunta_departamento_gestion_escolar
+  examples: |
+    - ¿Quién está a cargo del departamento de gestión escolar en ESCOM?
+    - Dime quién es responsable del departamento de gestión escolar en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo del departamento de gestión escolar en ESCOM?
+    - Necesito saber quién está a cargo del departamento de gestión escolar en ESCOM.
+
+- intent: pregunta_servicios_estudiantiles
+  examples: |
+    - ¿Quién está a cargo de los servicios estudiantiles en ESCOM?
+    - Dime quién es responsable de los servicios estudiantiles en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de los servicios estudiantiles en ESCOM?
+    - Necesito saber quién está a cargo de los servicios estudiantiles en ESCOM.
+
+- intent: pregunta_encargado_becas
+  examples: |
+    - ¿Quién está a cargo de las becas en ESCOM?
+    - Dime quién es responsable de las becas en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de las becas en ESCOM?
+    - Necesito saber quién está a cargo de las becas en ESCOM.
+
+- intent: pregunta_subdireccion_administrativa
+  examples: |
+    - ¿Quién está a cargo de la subdirección administrativa en ESCOM?
+    - Dime quién es responsable de la subdirección administrativa en ESCOM.
+    - ¿Puedes decirme quién ocupa el cargo de la subdirección administrativa en ESCOM?
+    - Necesito saber quién está a cargo de la subdirección administrativa en ESCOM.
+
+- intent: pregunta_composicion_organigrama
+  examples: |
+    - ¿Cómo está compuesto el organigrama de ESCOM?
+    - Explícame la composición del organigrama de ESCOM.
+    - ¿Puedes decirme los departamentos que conforman el organigrama de ESCOM?
+    - Necesito saber la estructura del organigrama de ESCOM.
+
+- intent: pregunta_mision_escom
+  examples: |
+    - ¿Cuál es la misión de ESCOM?
+    - Dime cuál es la misión de la Escuela Superior de Cómputo.
+    - ¿Puedes explicar cuál es el propósito de ESCOM?
+    - Necesito saber cuál es la misión de ESCOM.
+    - cuentame la misión de la escom
+    - de que trata la mision de la escom
+    - mision escom
+    - cual es la mision de la escuela
+    - dime la mision de la escuela
+
+- intent: pregunta_vision_escom
+  examples: |
+    - ¿Cuál es la visión de ESCOM?
+    - Dime cuál es la visión de la Escuela Superior de Cómputo.
+    - ¿Puedes explicar cómo se visualiza ESCOM en el futuro?
+    - Necesito saber cuál es la visión de ESCOM.
+
+- intent: pregunta_politica_calidad
+  examples: |
+    - ¿Cuál es la política de calidad de ESCOM?
+    - Dime cuál es la política de calidad de la Escuela Superior de Cómputo.
+    - ¿Puedes explicar la política de calidad que sigue ESCOM?
+    - Necesito saber cuál es la política de calidad de ESCOM.
+
+- intent: pregunta_ubicacion_escom
+  examples: |
+    - ¿Dónde se encuentra ubicada ESCOM?
+    - Dime la dirección de la Escuela Superior de Cómputo.
+    - ¿Puedes decirme la ubicación exacta de ESCOM?
+    - Necesito saber la dirección de ESCOM.
+
+- intent: pregunta_medios_contacto_escom
+  examples: |
+    - ¿Cuáles son los medios de contacto de ESCOM?
+    - Dime los medios para contactar a la Escuela Superior de Cómputo.
+    - ¿Puedes decirme cómo puedo comunicarme con ESCOM?
+    - Necesito saber los medios de contacto de ESCOM.
+
+
+
