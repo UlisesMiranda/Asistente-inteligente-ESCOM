@@ -47,6 +47,11 @@ rules:
     - intent: pregunta_historia_escom
     - action: utter_historiaEscom
 
+- rule: Responder al intent 'pregunta_escudo_escom'
+  steps:
+    - intent: pregunta_escudo_escom
+    - action: utter_escudoEscom
+
 - rule: Responder al intent 'pregunta_director'
   steps:
     - intent: pregunta_director

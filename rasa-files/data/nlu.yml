@@ -173,6 +173,17 @@ nlu:
     - cual es la historia de la esucela superior de computo
     - de que habla la historia de la escuela superior de computo
 
+- intent: pregunta_escudo_escom
+  examples: |
+    - cual es la historia del escudo de escom
+    - puedes hablarme sobre el escudo de escom
+    - de que trata el escudo de escom
+    - hablame sobre el escudo de la escuela superior de computo
+    - necesito saber sobre la historia del escudo de escom
+    - cuando se realizo el escudo de escom
+    - como fue creado el escudo de la escuela superior de computo
+    - que onda con el escudo de la escuela superior de computo
+
 - intent: programas_academicos_escom
   examples: |
     - ¿Cuántos programas académicos tiene ESCOM?
@@ -385,6 +396,10 @@ nlu:
     - de que trata el programa academico en ia
     - de que trata el programa academico de inteligencia artificial
     - estoy muy interesado en la carrera de inteligencia artificial
+    - de que va la carrera en ingenieria en ia
+    - platicame mas sobre la ingenieria en inteligencia
+    - cual es el objetivo de la ingenieria en ia en la escom
+    - hablame mas sobre el programa de ingenieria en inteligencia artificial en la escuela superior de computo
 
 - intent: pregunta_ciencias_datos
   examples: |
@@ -398,6 +413,8 @@ nlu:
     - de que trata el programa academico en ciencias
     - de que trata el programa academico de ciencias de datos
     - estoy muy interesado en la carrera de ciencias de datos
+    - puedes hablarme como la carrera en licenciatura en ciencias de datos
+    - cual es el objetivo de la ciencias de datos
 
 - intent: pregunta_sistemas_computacionales
   examples: |
@@ -408,9 +425,13 @@ nlu:
     - puedes darme datos sobre la carrera en ciencias
     - que es la carrera de sistemas computacionales
     - necesito saber el programa academico de ingenieria en sistemas computacionales
-    - de que trata el programa academico en ciencias
+    - de que trata el programa academico en sistemas
     - de que trata el programa academico de sistemas computacionales
     - estoy muy interesado en la carrera de sistemas computacionales
+    - me interesa saber sobre la ingenieria en sistemaas
+    - de que va la ingenieria en sistemas
+    - cual es el objetivo de la ingenieria en sistemas de la escuela superior de computo
+    - hablame mas sobre la ingenieria en sistemas computaciones la escom
     
   
     

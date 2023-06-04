@@ -36,6 +36,7 @@ intents:
   - pregunta_inteligencia_artificial
   - pregunta_ciencias_datos
   - pregunta_sistemas_computacionales
+  - pregunta_escudo_escom
 
 
 responses:
@@ -85,13 +86,15 @@ responses:
       Dicho documento fue presentado, en apego a la normatividad vigente, a la comisión de Planes y Programas del
        Consejo Nacional Consultivo del IPN, el cual fue aprobado por la misma Comisión en la sesión del 5 de agosto 
        de 1993. Contando con la autorización, el documento fue remitido al pleno del H. Consejo General Consultivo del 
-       IPN, en donde, fue aprobado en la Sesión Ordinaria del 13 de agosto de 1993 surgiendo así la Escuela Superior de Cómputo.\n\n
-       Acerca del escudo. En el año de 1994,la dirección del plantel estableció un conjunto de lineamientos que 
+       IPN, en donde, fue aprobado en la Sesión Ordinaria del 13 de agosto de 1993 surgiendo así la Escuela Superior de Cómputo."
+
+  utter_escudoEscom:
+    - text: "Acerca del escudo. En el año de 1994,la dirección del plantel estableció un conjunto de lineamientos que 
     debía cumplir este distintivo y demás identificadores que le sirvieran como imagen oficial. Estos lineamientos fueron:
     Trazos claros y sencillos, Dar sensación de movimiento, No contener elementos tecnológicos, Tener posibilidad de larga vigencia, 
     Retratar bien en color o en blanco y negro. Dos estudiantes de la licenciatura en diseño gráfico de la UAM-Azcapotzalco,
      apegados a los lineamientos generaron logotipos e imágenes, resultando ganador el presentado por la C. Guadalupe Gómez Sánchez,
-      durante el simposium Tecno-Industria ESCOM-95. Enmarzo de 2011 se incluyó la leyenda Instituto Politécnico Nacional."
+      durante el simposium Tecno-Industria ESCOM-95. En marzo de 2011 se incluyó la leyenda Instituto Politécnico Nacional."
 
   utter_quienDirector:
     - text: "M. en C. Andrés Ortigoza Campos"
