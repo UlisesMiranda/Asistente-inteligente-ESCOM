@@ -432,7 +432,28 @@ nlu:
     - de que va la ingenieria en sistemas
     - cual es el objetivo de la ingenieria en sistemas de la escuela superior de computo
     - hablame mas sobre la ingenieria en sistemas computaciones la escom
-    
+
+- intent: pregunta_que_es_cosie
+  examples: |
+    -¿qué es la COSIE?
+    -¿qué significa COSIE?
+
+- intent: tramites_cosie
+  examples: |
+    -¿qué tramites puedo realizar en la COSIE?
+    -¿qué tramites de la COSIE puedo realizar en linea?
+
+- intent: objetivo_cosie
+  examples: |
+    -¿cuál es el objetivo de la COSIE?
+
+- intent: miembros_cosie
+  examples: |
+    ¿Quiénes son los membros de la COSIE?
+    ¿Quiénes integran la COSIE?
+    ¿Quiénes conforma la COSIE?
+
+
   
     
 

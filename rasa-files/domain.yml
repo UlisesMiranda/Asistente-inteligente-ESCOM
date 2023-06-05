@@ -192,6 +192,46 @@ responses:
     de vanguardia y metodologías, normas y estándares nacionales e internacionales de calidad; líderes de equipos de trabajo 
     multidisciplinarios y multiculturales, con un alto sentido ético y de responsabilidad."
 
+  utter_cosie:
+    - text: "Es el Órgano colegiado que emana de los Consejos Técnicos Consultivos Escolares, del Consejo General Consultivo, 
+    o es reconocido por éste y se encarga de dictaminar los asuntos derivados de la situación escolar, en los términos de la 
+    normatividad aplicable. (Artículo 3 del RGE)."
+  
+  utter_objetivo_cosie:
+    - text: "Resolver los recursos de reconsideración presentados por los estudiantes de los niveles medio superior y superior, 
+    a través de la emisión del dictamen de situación escolar correspondiente; con el fin de regularizar su trayectoria escolar 
+    y recuperar la calidad alumno en el instituto, en apego a la normatividad aplicable."
+
+  utter_tramites_cosie:
+    - text: "la COSIe proporciona documentos con los cuales puedes realizar los siguientes tramites:\n
+    - Solicitud para COSIE-CTCE-ESCOM\n
+    - Carta de Exposición de Motivos COSIE-CTCE-ESCOM\n
+    - Solicitud para COSIE-IPN\n
+    - Formato Inscripción con menos Créditos\n
+    - Solicitud de Dictamen de Inscripción con menos Créditos Semestre 2023-2\n
+    - Formato Inscripción con más Créditos\n
+    - Solicitud de Dictamen de Inscripción con más Créditos Semestre 2023-2\n\n
+
+    Recuerda que en algunos casos deberás de presentarte en las instalaciones de la ESCOM para entregar los formatos que te 
+    proporciona la pagina de la COSIE en ESCOM
+    "
+
+  utter_miembros_cosie:
+    - text: "La COSIE de la ESCOm actualmente está integrada por:\n
+    - Presidente: M. en C. Andrés Ortigoza Campos\n
+    - Secretario: M. en C. José Asunción Enríquez Zárate\n
+    - M. en C. Iván Giovanny Mosso García\n
+    - SEPI\n
+    - Ing. Felipe de Jesús Figueroa del Prado\n
+    - Ing. María del Rosario Galeana Chávez (invitada)\n
+    - DCIC\n
+    - Ing. Tania Rodríguez Sarabia\n
+    - Profesor 1\n
+    - Profesor 2\n
+    - Alumno 1\n
+    - Alumno 2
+    "
+
   utter_default:
     - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 
     ESCOM directamente para obtener la respuesta precisa. Disculpa las molestias."

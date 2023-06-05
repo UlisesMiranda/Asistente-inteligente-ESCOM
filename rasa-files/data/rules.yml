@@ -162,6 +162,28 @@ rules:
     - intent: pregunta_sistemas_computacionales
     - action: utter_sistemas_computacionales
 
+- rule: Responder al intent 'pregunta_que_es_cosie'
+  steps:
+    - intent: pregunta_que_es_cosie
+    - action: utter_cosie
+
+- rule: Responder al intent 'tramites_cosie'
+  steps:
+    - intent: tramites_cosie
+    - action: utter_tramites_cosie
+
+- rule: Responder al intent 'objetivo_cosie'
+  steps:
+    - intent: objetivo_cosie
+    - action: utter_objetivo_cosie
+
+- rule: Responder al intent 'miembros_cosie'
+  steps:
+    - intent: miembros_cosie
+    - action: utter_miembros_cosie
+
+
+
 
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
