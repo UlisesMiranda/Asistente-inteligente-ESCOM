@@ -453,7 +453,63 @@ nlu:
     ¿Quiénes integran la COSIE?
     ¿Quiénes conforma la COSIE?
 
+- intent: pregunta_que_es_sseis
+  examples: |
+    - ¿Qué es SSEIS?
+    - ¿Qué significan las siglas SSEIS?
+    - SSEIS
+    - Dime que es SSEIS
+    - que significa sseis
+    - significado SSEIS
+    - para que sirve la sseis
+    - objetivo de la sseis
+    - ¿Para qué sirve la SSEIS?
+    - ¿En que me puede ayudar la SSEIS?
+    - funciones SSEIS
+    - tramites sseis
 
+- intent: atencion_gestion_escolar
+  examples: |
+    - correo gestión escolar
+    - email gestion escolar
+    - telefonos gestión
+    - contacto gestión escolar
+    - horario gestión escolar
+    - ¿Dónde está gestión escolar?
+    - donde esta gestion escolar
+    - horas de atencion en gestion escolar
+    - numero de gestion
+    - ¿Cuáles son los horarios de atención de la gestión escolar?
+    - a que hora atienden en gestion escolar
+    - ¿Cuál es el correro electrónico de gestión escolar?
+    - Telefonos gestión escolar
+    - atencion gestion escolar
+
+- intent: actividades_culturales
+  examples: |
+    - actividades culturales
+    - ¿Cuáles actividades culturales hay?
+    - talleres culturales 
+    - ¿Qué talleres culturales hay?
+    - dime cuales son las actividades culturales
+    - ¿qué actividades culturales hay?
+    - ¿hay talleres?
+    - ¿hay actividades culturales?
+    - dame informacion acerca de las actividades culturales
+    - horarios actividades culturales
+    - quien imparte las actividades culturales
+    - Horarios talleres culturales
+
+- intent: pregunta_tipos_de_becas
+  examples: |
+    - ¿Qué tipos de becas hay?
+    - tipos de becas
+    - dan becas?
+    - becas
+    - dime que becas hay
+    - ¿Cuáles son los tipos de becas que tienen?
+    - información sobre becas
+    - dame informacion de las becas
   
     
 

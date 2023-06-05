@@ -182,6 +182,26 @@ rules:
     - intent: miembros_cosie
     - action: utter_miembros_cosie
 
+- rule: Responder al intent 'pregunta_que_es_sseis'
+  steps:
+    - intent: pregunta_que_es_sseis
+    - action: utter_queEsSseis
+
+- rule: Responder al intent 'atencion_gestion_escolar'
+  steps:
+    - intent: atencion_gestion_escolar
+    - action: utter_contactoGestionEscolar
+
+- rule: Responder al intent 'actividades_culturales'
+  steps:
+    - intent: actividades_culturales
+    - action: utter_actividadesCulturales
+
+- rule: Responder al intent 'pregunta_tipos_de_becas'
+  steps:
+    - intent: pregunta_tipos_de_becas
+    - action: utter_tiposDeBecas
+
 
 
 

@@ -37,6 +37,10 @@ intents:
   - pregunta_ciencias_datos
   - pregunta_sistemas_computacionales
   - pregunta_escudo_escom
+  - pregunta_que_es_sseis
+  - atencion_gestion_escolar
+  - actividades_culturales
+  - pregunta_tipos_de_becas
 
 
 responses:
@@ -231,6 +235,33 @@ responses:
     - Alumno 1\n
     - Alumno 2
     "
+
+  utter_queEsSseis:
+    - text: "SSEIS significa: Subdirección de Servicios Educativos e Integración Social y tiene como objetivo acercar los diferentes servicios que se ofrecen en la escuela a toda la ESCOMunidad. Dentro de las funciones que realiza la subdirección se encuentra la coordinación de los departamentos de: Gestión Escolar, Servicios Estudiantiles, Extensión y Apoyos Educativos y la Unidad Politécnica de Integración Social."
+
+  utter_contactoGestionEscolar:
+    - text: "Correo electrónico: sescolares_escom@ipn.mx\n
+    Teléfono: Tel. 57296000 Ext. 52007\n
+    Ubicación: Edificio de gobierno, Planta Baja\n
+    Horario: De 9 a 15 horas y de 17 a 20 horas"
+
+  utter_actividadesCulturales:
+    - text: "Artes plásticas: Miércoles y Viernes de 13:00 a 18:00 h. impartido por Profra. Martha Aurora Torres Hernández.\n
+    Creación literaria: Jueves de 11:00 a 16:00 h. impartido por Prof. Julián Castruita Morán.\n
+    Danza Contemporánea: Viernes de 9:00 a 15:00 h. impartido por Prof. Iván Gerardo Moreno Díaz.\n
+    Teatro: Miércoles de 09:00 a 15:00 h. impartido por Profra. Verónica Hernández.\n
+    Oratoria: Miércoles y Jueves de 12:00 a 18:00 h. impartido por Prof. Clemente Guerrero García."
+
+  utter_tiposDeBecas:
+    - text: "En ESCOM puedes tener acceso a una gran variedad de becas, para ser acreedor de alguna de ellas debes estar atento a las convocatorias que se publican, donde encontrarás los procedimientos y documentos requeridos.\n
+    Becas de manutención\n
+    Beca Excelencia/Telmex\n
+    Beca deportiva\n
+    Beca Institucional\n
+    Beca Bécalos\n
+    Transporte Institucional\n
+    Beca Cultural\n
+    Beca para la aprobación"
 
   utter_default:
     - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 
