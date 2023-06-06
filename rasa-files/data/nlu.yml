@@ -435,23 +435,23 @@ nlu:
 
 - intent: pregunta_que_es_cosie
   examples: |
-    -¿qué es la COSIE?
-    -¿qué significa COSIE?
+    - ¿qué es la COSIE?
+    - ¿qué significa COSIE?
 
 - intent: tramites_cosie
   examples: |
-    -¿qué tramites puedo realizar en la COSIE?
-    -¿qué tramites de la COSIE puedo realizar en linea?
+    - ¿qué tramites puedo realizar en la COSIE?
+    - ¿qué tramites de la COSIE puedo realizar en linea?
 
 - intent: objetivo_cosie
   examples: |
-    -¿cuál es el objetivo de la COSIE?
+    - ¿cuál es el objetivo de la COSIE?
 
 - intent: miembros_cosie
   examples: |
-    ¿Quiénes son los membros de la COSIE?
-    ¿Quiénes integran la COSIE?
-    ¿Quiénes conforma la COSIE?
+    - ¿Quiénes son los membros de la COSIE?
+    - ¿Quiénes integran la COSIE?
+    - ¿Quiénes conforma la COSIE?
 
 - intent: pregunta_que_es_sseis
   examples: |
@@ -511,6 +511,29 @@ nlu:
     - información sobre becas
     - dame informacion de las becas
   
-    
+- intent: pregunta_inscripciones
+  examples: |
+    - ¿Cómo es el proceso de inscripción?
+    - ¿Tienes información acerca del proceso de inscpripción?
+    - Dame informacion de inscripciones
+    - ¿Me podrías dar informacion sobre las inscripciones?
+    - ¿qué debo hacer para inscribirme?
+
+- intent: pregunta_reinscripciones
+  examples: |
+    - ¿Cómo es el proceso de reinscripción?
+    - ¿Tienes información acerca del proceso de reinscpripción?
+    - Dame informacion de reinscripciones
+    - ¿Me podrías dar informacion sobre las reinscripciones?
+    - ¿qué debo hacer para reinscribirme?
+
+- intent: pregunta_ets
+  examples: |
+    - ¿Cómo es el proceso de inscribirme al ETS?
+    - ¿Tienes información acerca del proceso de inscripcion al ETS?
+    - Dame informacion acerca del proceso para el ETS
+    - ¿Me podrías dar informacion sobre los ETS?
+    - ¿qué debo hacer para inscribirme a los ETS?
+
 
 
