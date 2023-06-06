@@ -321,6 +321,10 @@ nlu:
     - mision escom
     - cual es la mision de la escuela
     - dime la mision de la escuela
+    - necesito saber la mision de la escuela superior de computo
+    - cual es la mision de la escuela superior de computo
+    - puedes decirme cual es la mision de la escuela superior de computo
+    - dime la mison de la escuela
 
 - intent: pregunta_vision_escom
   examples: |
@@ -332,6 +336,11 @@ nlu:
     - platicame sobre la vision de la escuela superior de computo
     - de que trata la vision de la escom
     - cuentame la vision de la escom
+    - puedes decirme la vision de la escuela superior de computo
+    - hablame de la vision de la escuela superior de computo
+    - me interesa saber la vision de la escom
+    - como esta compuesta la vision de la escuela superior
+    - vision de escom
 
 - intent: pregunta_politica_calidad
   examples: |
@@ -343,6 +352,9 @@ nlu:
     - me gustaria saber cual es la politica de calidad de escom
     - de que trata la politica de calidad de la escom
     - cuentame la politica de calidad de la escom
+    - que hay sobre la politica de calidad de la escuela superior de computo
+    - hablame sobre la politica de calidad de la escom
+    - que me puedes decir sobre la politica de calidad de la escuela
 
 - intent: pregunta_ubicacion_escom
   examples: |
@@ -435,23 +447,69 @@ nlu:
 
 - intent: pregunta_que_es_cosie
   examples: |
-    -¿qué es la COSIE?
-    -¿qué significa COSIE?
+    - ¿qué es la COSIE?
+    - ¿qué significa COSIE?
+    - de que trata la cosie
+    - necesito informacion sobre la cosie
+    - que me puedes decir sobre la cosie
+    - platicame sobre Comisión de Situación Escolar del Consejo General Consultivo
+    - cuentas con informacion de la Comisión de Situación Escolar del Consejo General Consultivo
+    - que es la Comisión de Situación Escolar del Consejo General Consultivo
+    - puedes decirme detalles sobre la Comisión de Situación Escolar del Consejo General Consultivo
+    - necesito datos sobre la cosie
+    - podrias darme informacion sobre la cosie
+    - informacion de la cocie
+    - que es la cocie
+    - dame informacion relevante de la cocie
+    - de que trata la cocie
 
 - intent: tramites_cosie
   examples: |
     -¿qué tramites puedo realizar en la COSIE?
     -¿qué tramites de la COSIE puedo realizar en linea?
+    - que tipos de tramites puedo realizar en la cosie
+    - podrias darme informacion sobre los tramites de la cosie
+    - cuantos tramites puedo realizar en cosie
+    - que documentos puedo tramitar en cosie
+    - cuales y cuantos son los tramites de cosie
+    - tramites Comisión de Situación Escolar del Consejo General Consultivo
+    - dame algunos tramites de la Comisión de Situación Escolar del Consejo General Consultivo
+    - que tramites puedo realizar con la cocie
+    - necesito tramites de la cocie
+    - necesito ayuda para tramitar algun tramite en la cocie
+    - que informacion hay disponible sobre tramites
+    - tramites en la cocie
 
 - intent: objetivo_cosie
   examples: |
-    -¿cuál es el objetivo de la COSIE?
+    -cuál es el objetivo de la COSIE?
+    - hablame sobre el objetivo de la cosie
+    - que hay sobre el objetivo de la cosie
+    - hay informacion sobre el objetivo de la Comisión de Situación Escolar del Consejo General Consultivo
+    - requiero datos sobre el objetivo de la cosie
+    - puedes darme informacion sobre el objetivo de la cosie
+    - que objetivo tiene cosie
+    - objetivo de la Comisión de Situación Escolar del Consejo General Consultivo
+    - cual es el objetivo principal de la cocie
+    - objetivo de la cocie
+    - cual es el objetivo de comision de situacion escolar
 
 - intent: miembros_cosie
   examples: |
-    ¿Quiénes son los membros de la COSIE?
-    ¿Quiénes integran la COSIE?
-    ¿Quiénes conforma la COSIE?
+    - Quiénes son los membros de la COSIE?
+    - Quiénes integran la COSIE?
+    - Quiénes conforma la COSIE?
+    - quienes son los miembros mas importantes de la cosie
+    - existen miembros de la cosie
+    - quienes son los representates de la cosie
+    - cuales son las personas encargadas de la Comisión de Situación Escolar del Consejo General Consultivo
+    - principales miembros de la Comisión de Situación Escolar del Consejo General Consultivo
+    - quienes se encargan de la cosie
+    - como esta conformada la Comisión de Situación Escolar del Consejo General Consultivo
+    - quienes son los principales encargados de la cocie
+    - necesito saber sobre los representantes de la cocie
+    - quienes son las personas encargadas de la cocie
+    - miembros y participantes de la cocie
 
 - intent: pregunta_que_es_sseis
   examples: |
@@ -467,6 +525,9 @@ nlu:
     - ¿En que me puede ayudar la SSEIS?
     - funciones SSEIS
     - tramites sseis
+    - necesito informacion sobre la seis
+    - cual es el significado de la seis
+    - requiero detalles de la seis
 
 - intent: atencion_gestion_escolar
   examples: |
@@ -484,6 +545,9 @@ nlu:
     - ¿Cuál es el correro electrónico de gestión escolar?
     - Telefonos gestión escolar
     - atencion gestion escolar
+    - como puedo contactar con gestion escolar
+    - hay algun medio para contactar a gestion escolar
+    - requiero informacion de contacto para gestion escolar
 
 - intent: actividades_culturales
   examples: |
@@ -496,9 +560,11 @@ nlu:
     - ¿hay talleres?
     - ¿hay actividades culturales?
     - dame informacion acerca de las actividades culturales
-    - horarios actividades culturales
-    - quien imparte las actividades culturales
-    - Horarios talleres culturales
+    - horarios actividades culturales 
+    - quien imparte las actividades culturales en la escuela
+    - Horarios talleres culturales en la escom
+    - dame informacion sobre las actividades culturales de la escom
+    - me gustarian detalles sobre las actividades culturales de la escuela
 
 - intent: pregunta_tipos_de_becas
   examples: |
@@ -510,6 +576,13 @@ nlu:
     - ¿Cuáles son los tipos de becas que tienen?
     - información sobre becas
     - dame informacion de las becas
+    - cuentas con informacion de las becas en escom
+    - que becas hay en escom
+    - cuales son las becas en escom
+    - me gustaria saber informacion sobre becas en la escom
+    - que apoyos economicos hay en la escuela
+    - cuales son los principales apoyos economicos de la escuela
+    - que becas existen en la escuela superior de computo
   
     
 
