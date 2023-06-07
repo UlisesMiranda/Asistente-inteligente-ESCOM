@@ -535,5 +535,60 @@ nlu:
     - ¿Me podrías dar informacion sobre los ETS?
     - ¿qué debo hacer para inscribirme a los ETS?
 
+- intent: pregunta_tramites
+  exmaples: |
+    - ¿Cuáles son los tramites que puedo realizar en gestion escolar?
+    - ¿qué tramites tiene gestion escolar?
+
+- intent: pregunta_constancia_inscripcion
+  examples: |
+    - ¿cómo puedo tramitar una constancia de inscripción?
+    - ¿cómo puedo tramitar una constancia de inscripcion?
+    - ¿qué debo hacer para tramitar una constancia de inscripcion?
+    - ¿qué debo hacer para tramitar una constancia de inscripción?
+
+- intent: pregunta_constancia_estudios
+  examples: |
+    - ¿cómo puedo tramitar una constancia de estudios?
+    - ¿cómo puedo tramitar una constancia de estudios?
+    - ¿qué debo hacer para tramitar una constancia de estudios?
+
+- intent: pregunta_constancia_peridodo_vacacional
+  examples: |
+    - ¿cómo puedo tramitar una constancia de peridodo vacacional?
+    - ¿cómo puedo tramitar una constancia de peridodo vacacional?
+    - ¿qué debo hacer para tramitar una constancia de peridodo vacacional?
+
+- intent: pregunta_tramite_boletas_informativas
+  examples: |
+    - ¿cómo puedo solicitar una boleta informativa?
+    - ¿cómo puedo tramitar una boleta informativa?
+    - ¿qué debo hacer para tramitar una boleta informativa?
+
+- intent: pregunta_tramite_boletas_certificada
+  examples: |
+    - ¿cómo puedo solicitar una boleta certificada?
+    - ¿cómo puedo tramitar una boleta certificada?
+    - ¿qué debo hacer para tramitar una boleta certificada?
+
+- intent: pregunta_tramitar_baja_materias
+  examples: |
+    - ¿cómo puedo dar de baja una materia?
+    - ¿hay algún documento digital para dar de baja una materia?
+
+- intent: pregunta_tramitar_baja_temporal
+  examples: |
+    - ¿cómo puedo darme de baja temporalmente?
+    - ¿hay algún documento digital para darme de baja temporalmente?
+
+- intent: pregunta_tramitar_baja_definitiva
+  examples: |
+    - ¿cómo puedo darme de baja definitivamente?
+    - ¿hay algún documento digital para darme de baja definitivamente?
+
+- intent: pregunta_tramite_credencial
+  examples: |
+    - ¿cómo puedo tramitar una credencial?
+    - ¿hay algún documento digital para darme de baja definitivamente?
 
 
