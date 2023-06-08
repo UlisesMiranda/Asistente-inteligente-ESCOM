@@ -266,6 +266,26 @@ responses:
     Transporte Institucional\n
     Beca Cultural\n
     Beca para la aprobación"
+  
+  utter_inscripciones:
+    - text: "Cada semestre, la guia para el proceso de inscripciones es publicado en el sitio oficial
+    de la SSEIS ESCOM, más específicamente en gestión escolar> Procedimientos.\n\n
+    
+    Aquí te dejo de todas maneras el link para acceder directamente a la guía: https://uteycv.escom.ipn.mx/s/ni/web/"
+  
+  utter_reinscripciones:
+    - text: "Cada semestre, El formato para el proceso de reinscripciones es publicado en el sitio oficial
+    de la SSEIS ESCOM, más específicamente en gestión escolar> Procedimientos.\n\n
+    
+    Aquí te dejo de todas maneras el link para acceder directamente al formato: https://www.escom.ipn.mx/SSEIS/gestionescolar/documentos/reinscripciones20232.pdf"
+  
+  utter_ets:
+    - text: "Cada semestre, El formato para el proceso de inscripcion al ETS es publicado en el sitio oficial
+    de la SSEIS ESCOM, más específicamente en gestión escolar> Procedimientos.\n\n
+    
+    En este momento, el periodo para los ets ya ha pasado y no es posible inscribirse en este momento.\n\n
+
+    Aquí te dejo de todas maneras el link para acceder directamente al formato: https://www.escom.ipn.mx/SSEIS/gestionescolar/documentos/reinscripciones20232.pdf"
 
   utter_default:
     - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 

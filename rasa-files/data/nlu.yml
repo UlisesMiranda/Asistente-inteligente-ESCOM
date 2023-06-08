@@ -584,6 +584,27 @@ nlu:
     - cuales son los principales apoyos economicos de la escuela
     - que becas existen en la escuela superior de computo
   
-    
+- intent: pregunta_inscripciones
+  examples: |
+    - ¿Cómo es el proceso de inscripción?
+    - ¿Tienes información acerca del proceso de inscpripción?
+    - Dame informacion de inscripciones
+    - ¿Me podrías dar informacion sobre las inscripciones?
+    - ¿qué debo hacer para inscribirme?
 
+- intent: pregunta_reinscripciones
+  examples: |
+    - ¿Cómo es el proceso de reinscripción?
+    - ¿Tienes información acerca del proceso de reinscpripción?
+    - Dame informacion de reinscripciones
+    - ¿Me podrías dar informacion sobre las reinscripciones?
+    - ¿qué debo hacer para reinscribirme?
+
+- intent: pregunta_ets
+  examples: |
+    - ¿Cómo es el proceso de inscribirme al ETS?
+    - ¿Tienes información acerca del proceso de inscripcion al ETS?
+    - Dame informacion acerca del proceso para el ETS
+    - ¿Me podrías dar informacion sobre los ETS?
+    - ¿qué debo hacer para inscribirme a los ETS?
 

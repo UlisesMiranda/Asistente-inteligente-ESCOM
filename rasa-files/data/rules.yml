@@ -202,6 +202,20 @@ rules:
     - intent: pregunta_tipos_de_becas
     - action: utter_tiposDeBecas
 
+- rule: Responder al intent 'pregunta_inscripciones'
+  steps:
+    - intent: pregunta_inscripciones
+    - action: utter_inscripciones
+
+- rule: Responder al intent 'pregunta_reinscripciones'
+  steps:
+    - intent: pregunta_reinscripciones
+    - action: utter_reinscripciones
+
+- rule: Responder al intent 'pregunta_ets'
+  steps:
+    - intent: pregunta_ets
+    - action: utter_ets
 
 
 
