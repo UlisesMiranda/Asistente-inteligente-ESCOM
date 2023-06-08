@@ -462,6 +462,15 @@ nlu:
     - que es la cocie
     - dame informacion relevante de la cocie
     - de que trata la cocie
+    - significado de la COSIE
+    - necesito saber que es cosie
+    - podrias decirme que es cosie?
+    - cosie
+    - COSIE
+    - me gustaria recibir informacion sobre cosie
+    - consejo tecnico escolar
+    - donde encuentro informacion del consejo tecnico escolar
+    - dame informacion acerca de la cosie
 
 - intent: tramites_cosie
   examples: |
@@ -479,9 +488,26 @@ nlu:
     - necesito ayuda para tramitar algun tramite en la cocie
     - que informacion hay disponible sobre tramites
     - tramites en la cocie
+    - ¿qué tramites puedo realizar en la COSIE?
+    - ¿qué tramites de la COSIE puedo realizar en linea?
+    - necesito hacer un tramite en la cosie
+    - tramites digitales de la cosie
+    - tramites en cosie
+    - como que tipos de tramites atiende la cosie
+    - hay algún tramite del cual la cosie sea encargada?
+    - qué tramites hace la cosie
 
 - intent: objetivo_cosie
   examples: |
+    - ¿cuál es el objetivo de la COSIE?
+    - ¿Qué objetivo tiene la COSIE?
+    - Objetivo de la COSIE
+    - Objetivo COSIE
+    - COSIE objetivo
+    - me gustaria saber cual es la razon de existir de la cosie
+    - que objetivo tiene la cosie?
+    - por qué es importante la cosie?
+    - tiene algún objetivo reelevante la cosie?
     -cuál es el objetivo de la COSIE?
     - hablame sobre el objetivo de la cosie
     - que hay sobre el objetivo de la cosie
@@ -496,6 +522,17 @@ nlu:
 
 - intent: miembros_cosie
   examples: |
+    - ¿Quiénes son los membros de la COSIE?
+    - ¿Quiénes integran la COSIE?
+    - ¿Quiénes conforma la COSIE?
+    - miembros cosie
+    - integrantes cosie
+    - me gustaria saber quienes integram a cosie
+    - a quienes puedo acudir si necesito realizar un tramite en cosie?
+    - quienes son los miembros del consejo tecnico escolar?
+    - dame informacion acerca de los miembros de la cosie
+    - necesito saber quienes son los miembros del consejo escolar
+    - integrantes del consejo escolar
     - Quiénes son los membros de la COSIE?
     - Quiénes integran la COSIE?
     - Quiénes conforma la COSIE?
@@ -583,7 +620,7 @@ nlu:
     - que apoyos economicos hay en la escuela
     - cuales son los principales apoyos economicos de la escuela
     - que becas existen en la escuela superior de computo
-  
+
 - intent: pregunta_inscripciones
   examples: |
     - ¿Cómo es el proceso de inscripción?
@@ -591,6 +628,10 @@ nlu:
     - Dame informacion de inscripciones
     - ¿Me podrías dar informacion sobre las inscripciones?
     - ¿qué debo hacer para inscribirme?
+    - me gustaria que me dieras informacion acerca del proceso de inscripcion
+    - hay informacion en linea sobre la inscripción?
+    - cuál es el proceso de inscripciones?
+    - no encuentro el proceso de inscripcion en la pagina de ESCOM
 
 - intent: pregunta_reinscripciones
   examples: |
@@ -599,6 +640,12 @@ nlu:
     - Dame informacion de reinscripciones
     - ¿Me podrías dar informacion sobre las reinscripciones?
     - ¿qué debo hacer para reinscribirme?
+    - me gustaria que me dieras informacion acerca del proceso de reinscripcion
+    - hay informacion en linea sobre la reinscripción?
+    - de que manera me reinscribo al siguiente semestre?
+    - cuál es el proceso de reinscripciones?
+    - no encuentro el proceso de reinscripcion en la pagina de ESCOM
+    - cuales son los requisitos para reinscribirme?
 
 - intent: pregunta_ets
   examples: |
@@ -607,4 +654,159 @@ nlu:
     - Dame informacion acerca del proceso para el ETS
     - ¿Me podrías dar informacion sobre los ETS?
     - ¿qué debo hacer para inscribirme a los ETS?
+    - ¿Cómo es el proceso de inscribirme al eteeses?
+    - ¿Tienes información acerca del proceso de inscripcion al eteeses?
+    - Dame informacion acerca del proceso para el eteeses
+    - ¿Me podrías dar informacion sobre los eteeses?
+    - ¿qué debo hacer para inscribirme a los eteeses?
+
+- intent: pregunta_tramites
+  examples: |
+    - ¿Cuáles son los tramites que puedo realizar en gestion escolar?
+    - ¿qué tramites tiene gestion escolar?
+    - tramites de gestion escolar
+    - tramites que puedo hacer en gestion escolar
+    - dame informacion de los tramites de gestion escolar
+    - qué tramites de gestion escola puedo realizar en linea?
+    - no conozco los tramites de gestion escolar
+    - puedo hacer tramites en linea de gestion escolar?
+    - podrias brindarme informacion de los tramites de gestion escolar?
+    - brindame informacion de los tramites de gestion escolar
+    - gestion escolar tiene tramites?
+    - hablame acerca de los tramites de gestion escolar
+
+- intent: pregunta_constancia_inscripcion
+  examples: |
+    - ¿cómo puedo tramitar una constancia de inscripción?
+    - ¿cómo puedo tramitar una constancia de inscripcion?
+    - ¿qué debo hacer para tramitar una constancia de inscripcion?
+    - Dame informacion de la constancia de inscripcion
+    - tramitar constancia de inscripcion
+    - ayudame a tramitar mi constancia de inscripcion
+    - necesito ayuda con el tramite de constancia de inscripcion
+    - hablame acerca del tramite de constancia de inscripcion
+    - necesito una constancia de inscripcion
+    - dime como obtener una constancia de inscripcion
+
+- intent: pregunta_constancia_estudios
+  examples: |
+    - ¿cómo puedo tramitar una constancia de estudios?
+    - ¿cómo puedo tramitar una constancia de estudios?
+    - ¿qué debo hacer para tramitar una constancia de estudios?
+    - constancia de estudios
+    - tramitar constancia de estudios
+    - ¿Qué hcer para tramitar constancia de estudios?
+    - Dame informacion de la constancia de estudios
+    - tramitar constancia de estudios
+    - ayudame a tramitar mi constancia de estudios
+    - necesito ayuda con el tramite de constancia de estudios
+    - hablame acerca del tramite de constancia de estudios
+    - necesito una constancia de estudios
+    - dime como obtener una constancia de estudios
+
+- intent: pregunta_constancia_peridodo_vacacional
+  examples: |
+    - ¿cómo puedo tramitar una constancia de peridodo vacacional?
+    - ¿cómo puedo tramitar una constancia de peridodo vacacional?
+    - ¿qué debo hacer para tramitar una constancia de peridodo vacacional?
+    - periodo vacacional
+    - tramitar constancia de periodo vacacional
+    - constancia de periodo vacacional
+    - obtener constancia de periodo vacacional
+    - necesito una constancia de periodo vacacional
+    - hay alguna manera de tramitar una constancia de periodo vacacional?
+    - gestion escolar tiene un tramite de constancia de periodo vacacionañ?
+    - podrias decirme como tramitar mi constancia de periodo vacacional?
+
+- intent: pregunta_tramite_boletas_informativas
+  examples: |
+    - ¿cómo puedo solicitar una boleta informativa?
+    - ¿cómo puedo tramitar una boleta informativa?
+    - ¿cómo puedo obtener una boleta informativa?
+    - ¿puedo obtener una boleta informativa?
+    - ¿qué debo hacer para tramitar una boleta informativa?
+    - boletas informativas
+    - tramitar boleta informativa
+    - obtener boleta informativa
+    - tramite de boleta informativa
+    - ayudame a sacar mi boleta informativa
+    - hablame acerca de como obtener una boleta informativa
+    - podrias brindarme informacion sobre el tramite de boleta informativa?
+    - quiero tramitar una boleta informativa
+
+- intent: pregunta_tramite_boletas_certificada
+  examples: |
+    - ¿cómo puedo solicitar una boleta certificada?
+    - ¿cómo puedo tramitar una boleta certificada?
+    - ¿qué debo hacer para tramitar una boleta certificada?
+    - tramitar boleta certificada
+    - boleta certificada
+    - que hacer para tramitar boleta certificada
+    - obtener boleta certificada
+    - dame informacion de la boleta certificada
+    - tramite de boleta certificada
+    - ayudame a sacar mi boleta certificada
+    - hablame acerca de como obtener una boleta certificada
+    - podrias brindarme informacion sobre el tramite de boleta certificada?
+    - quiero tramitar una boleta certificada
+
+- intent: pregunta_tramitar_baja_materias
+  examples: |
+    - ¿cómo puedo dar de baja una materia?
+    - ¿hay algún documento digital para dar de baja una materia?
+    - tramitar baja de materias
+    - tramite baja de materia
+    - baja unidad de aprendisaje
+    - necesito dar de baja una materia
+    - puedes decirme donde puedo dar de baja una materia?
+    - que hacer para der de baja una materia
+    - dar de baja una materia
+    - tienes alguna información sobre como dar de baja una materia?
+
+- intent: pregunta_tramitar_baja_temporal
+  examples: |
+    - ¿cómo puedo darme de baja temporalmente?
+    - ¿hay algún documento digital para darme de baja temporalmente?
+    - ¿qué debo hacer para darme de baja temporalmente?
+    - baja temporal
+    - baja temporalmente
+    - que hacer para darme de baja temporal
+    - necesito darme de baja temporal, como puedo hacerlo?
+    - puedes ayudarme a darme de baja temporal?
+    - existe alguna forma de tramitar la baja temporal?
+    - ayudame a darme de baja temporal
+    - hablame acerca del tramite de baja temporal
+    - como puedo tramitar la baja temporal?
+
+- intent: pregunta_tramitar_baja_definitiva
+  examples: |
+    - ¿cómo puedo darme de baja definitivamente?
+    - ¿hay algún documento digital para darme de baja definitivamente?}
+    - ¿qué debo hacer para darme de baja definitiva?
+    - baja definitiva
+    - baja definitivamente
+    - que hacer para darme de baja definitiva
+    - necesito darme de baja definitiva, como puedo hacerlo?
+    - puedes ayudarme a darme de baja definitiva?
+    - existe alguna forma de tramitar la baja definitiva?
+    - ayudame a darme de baja definitiva
+    - hablame acerca del tramite de baja definitiva
+    - como puedo tramitar la baja definitiva?
+
+- intent: pregunta_tramite_credencial
+  examples: |
+    - ¿cómo puedo tramitar una credencial?
+    - ¿hay algún documento digital para darme de baja definitivamente?
+    - reponer credencial
+    - tramitar credencial
+    - necesito reponer mi credencial
+    - necesito tramitar mi credencial
+    - que hacer para tramitar la credencial de estudiante?
+    - credencial de estudiante
+    - en donde tramito la credencial de estudiante?
+    - puedes ayudarme a tramitar la credencial de estudiante?
+    - me gustaria saber como tramitar la credencial de estudiante
+    - extravié mi credencial, como puedo reponerla?
+    - me puedes ayudar a tramitar la credencial?
+
 

@@ -217,7 +217,55 @@ rules:
     - intent: pregunta_ets
     - action: utter_ets
 
+- rule: Respoonder al intent 'pregunta_tramites'
+  steps:
+    - intent: pregunta_tramites
+    - action: utter_tramites
 
+- rule: Respoonder al intent 'pregunta_constancia_inscripcion'
+  steps:
+    - intent: pregunta_constancia_inscripcion
+    - action: utter_Constancias
+
+- rule: Respoonder al intent 'pregunta_constancia_estudios'
+  steps:
+    - intent: pregunta_constancia_estudios
+    - action: utter_Constancias
+
+- rule: Respoonder al intent 'pregunta_constancia_peridodo_vacacional'
+  steps:
+    - intent: pregunta_constancia_peridodo_vacacional
+    - action: utter_Constancias
+
+- rule: Respoonder al intent 'pregunta_tramite_boletas_informativas'
+  steps:
+    - intent: pregunta_tramite_boletas_informativas
+    - action: utter_Constancias
+
+- rule: Respoonder al intent 'pregunta_tramite_boletas_certificada'
+  steps:
+    - intent: pregunta_tramite_boletas_certificada
+    - action: utter_Constancias
+
+- rule: Respoonder al intent 'pregunta_tramitar_baja_materias'
+  steps:
+    - intent: pregunta_tramitar_baja_materias
+    - action: utter_baja_materia
+
+- rule: Respoonder al intent 'pregunta_tramitar_baja_temporal'
+  steps:
+    - intent: pregunta_tramitar_baja_temporal
+    - action: utter_baja_temporal
+
+- rule: Respoonder al intent 'pregunta_tramitar_baja_definitiva'
+  steps:
+    - intent: pregunta_tramitar_baja_definitiva
+    - action: utter_baja_definitiva
+
+- rule: Respoonder al intent 'pregunta_tramite_credencial'
+  steps:
+    - intent: pregunta_tramite_credencial
+    - action: utter_credencial
 
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence

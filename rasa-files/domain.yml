@@ -45,7 +45,19 @@ intents:
   - atencion_gestion_escolar
   - actividades_culturales
   - pregunta_tipos_de_becas
-
+  - pregunta_inscripciones
+  - pregunta_reinscripciones
+  - pregunta_ets
+  - pregunta_tramites
+  - pregunta_constancia_inscripcion
+  - pregunta_constancia_estudios
+  - pregunta_constancia_peridodo_vacacional
+  - pregunta_tramite_boletas_informativas
+  - pregunta_tramite_boletas_certificada
+  - pregunta_tramitar_baja_materias
+  - pregunta_tramitar_baja_temporal
+  - pregunta_tramitar_baja_definitiva
+  - pregunta_tramite_credencial
 
 responses:
 #  utter_greet:
@@ -181,7 +193,7 @@ responses:
       de cada Departamento Académico, así como de alumnos representantes de todos los semestres."
 
   utter_inteligencia_artificial:
-    - text: "La carrera en ingeniería en inteligencias artificial tiene como objetivo formar expertos capaces de desarrollar
+    - text: "La carrera en ingenieria en inteligencias artificial tiene como objetivo formar expertos capaces de desarrollar
      sistemas inteligentes utilizando diferentes metodologías en las diferentes etapas de desarrollo y aplicando algoritmos
       en áreas como aprendizaje de máquina, procesamiento automático de lenguaje natural, visión artificial y modelos
        bioinspirados para atender las necesidades de los diferentes sectores de la sociedad a través de la generación 
@@ -194,7 +206,7 @@ responses:
     sobre comportamientos probables, para apoyar la toma de decisiones de alta dirección."
 
   utter_sistemas_computacionales:
-    - text: "La carrea en ingeniera en sistemas computacionales tiene como objetivo formar Formar ingenieros en sistemas 
+    - text: "La carrea en ingenieria en sistemas computacionales tiene como objetivo formar Formar ingenieros en sistemas 
     computacionales de sólida preparación científica y tecnológica en los ámbitos del desarrollo de software y hardware, 
     que propongan, analicen, diseñen, desarrollen, implementen y gestionen sistemas computacionales a partir de tecnologías 
     de vanguardia y metodologías, normas y estándares nacionales e internacionales de calidad; líderes de equipos de trabajo 
@@ -211,7 +223,7 @@ responses:
     y recuperar la calidad alumno en el instituto, en apego a la normatividad aplicable."
 
   utter_tramites_cosie:
-    - text: "la COSIE proporciona documentos con los cuales puedes realizar los siguientes tramites:\n
+    - text: "La COSIE proporciona documentos con los cuales puedes realizar los siguientes tramites:\n
     - Solicitud para COSIE-CTCE-ESCOM\n
     - Carta de Exposición de Motivos COSIE-CTCE-ESCOM\n
     - Solicitud para COSIE-IPN\n
@@ -225,7 +237,7 @@ responses:
     "
 
   utter_miembros_cosie:
-    - text: "La COSIE de la ESCOm actualmente está integrada por:\n
+    - text: "La COSIE de la ESCOM actualmente está integrada por:\n
     - Presidente: M. en C. Andrés Ortigoza Campos\n
     - Secretario: M. en C. José Asunción Enríquez Zárate\n
     - M. en C. Iván Giovanny Mosso García\n
@@ -244,16 +256,16 @@ responses:
     - text: "SSEIS significa: Subdirección de Servicios Educativos e Integración Social y tiene como objetivo acercar los diferentes servicios que se ofrecen en la escuela a toda la ESCOMunidad. Dentro de las funciones que realiza la subdirección se encuentra la coordinación de los departamentos de: Gestión Escolar, Servicios Estudiantiles, Extensión y Apoyos Educativos y la Unidad Politécnica de Integración Social."
 
   utter_contactoGestionEscolar:
-    - text: "Puedes contacar con gestion a través de los siguientes medios:\nCorreo electrónico: sescolares_escom@ipn.mx\n
+    - text: "Puedes contacar con gestión a través de los siguientes medios:\nCorreo electrónico: sescolares_escom@ipn.mx\n
     Teléfono: Tel. 57296000 Ext. 52007\n
     Ubicación: Edificio de gobierno, Planta Baja\n
     Horario: De 9 a 15 horas y de 17 a 20 horas"
 
   utter_actividadesCulturales:
-    - text: "Artes plásticas: Miércoles y Viernes de 13:00 a 18:00 h. impartido por Profra. Martha Aurora Torres Hernández.\n
+    - text: "Artes plásticas: Miércoles y Viernes de 13:00 a 18:00 h. impartido por la Profra. Martha Aurora Torres Hernández.\n
     Creación literaria: Jueves de 11:00 a 16:00 h. impartido por Prof. Julián Castruita Morán.\n
     Danza Contemporánea: Viernes de 9:00 a 15:00 h. impartido por Prof. Iván Gerardo Moreno Díaz.\n
-    Teatro: Miércoles de 09:00 a 15:00 h. impartido por Profra. Verónica Hernández.\n
+    Teatro: Miércoles de 09:00 a 15:00 h. impartido por la Profra. Verónica Hernández.\n
     Oratoria: Miércoles y Jueves de 12:00 a 18:00 h. impartido por Prof. Clemente Guerrero García."
 
   utter_tiposDeBecas:
@@ -268,7 +280,7 @@ responses:
     Beca para la aprobación"
   
   utter_inscripciones:
-    - text: "Cada semestre, la guia para el proceso de inscripciones es publicado en el sitio oficial
+    - text: "Cada semestre, la guía para el proceso de inscripciones es publicado en el sitio oficial
     de la SSEIS ESCOM, más específicamente en gestión escolar> Procedimientos.\n\n
     
     Aquí te dejo de todas maneras el link para acceder directamente a la guía: https://uteycv.escom.ipn.mx/s/ni/web/"
@@ -287,9 +299,42 @@ responses:
 
     Aquí te dejo de todas maneras el link para acceder directamente al formato: https://www.escom.ipn.mx/SSEIS/gestionescolar/documentos/reinscripciones20232.pdf"
 
+  utter_tramites:
+    - text: "Gestion Escolar tiene modulos para poder informar y relizar en linea los siguientes tramites:\n\n
+    - Constancias\n
+    \t- inscripción\n
+    \t- estudios\n
+    \t- periodo vacacional\n\n
+    
+    - Boletas\n
+    \t- informativas\n
+    \t- certificadas\n\n
+    
+    - Bajas\n
+    \t- de materia\n
+    \t- temporal\n
+    \t- definitiva\n\n
+    
+    - Ceredencial de estudiante"
+
+  utter_Constancias:
+    - text: "Puedes tramitar tu constancia en el siguiente enlace: http://148.204.56.120:8084/solicitudes/login"
+
+  utter_baja_materia:
+    - text: "En este momento, ya no es posible dar de baja una unidad de aprendizaje en este periodo escolar, pero el siguiente ciclo, si lo deseas puedes tramitar tu baja de unidad de aprendizaje en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
+
+  utter_baja_temporal:
+    - text: "Puedes tramitar tu baja temporal en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
+    
+  utter_baja_definitiva:
+    - text: "Puedes tramitar tu baja definitiva en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSf_QMIDCiLJvmZtajrLuDxdcn94fkpj_9V4WeeIV7uY0WCpIQ/viewform"
+
+  utter_credencial:
+    - text: "Si has extraviado tu credencial de estudiante, la puedes tramitar en el siguiente enlace: https://www.ipn.mx/dae/tramites/credencial-institucional.html"
+
   utter_default:
-    - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 
-    ESCOM directamente para obtener la respuesta precisa. Disculpa las molestias."
+    - text: "No cuento con esa información en este momento. Te recomiendo preguntar en nuestro chatbot o contactar a 
+    ESCOM directamente para obtener la respuesta precisa. Disculpa las molestias. Por favor, realiza otra pregunta"
 
 session_config:
   session_expiration_time: 60
