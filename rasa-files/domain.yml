@@ -305,7 +305,7 @@ responses:
     - text: "puedes tramitar tu constancia en el siguiente enlace: http://148.204.56.120:8084/solicitudes/login"
 
   utter_baja_materia:
-    - text: "En este momento, ya no es posible dar de baja una unidad de aprendisaje en este periodo escolar, pero el siguiente siclo, si lo deseas puedes tramitar tu baja de unidad de aprendizaje en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
+    - text: "En este momento, ya no es posible dar de baja una unidad de aprendisaje en este periodo escolar, pero el siguiente ciclo, si lo deseas puedes tramitar tu baja de unidad de aprendizaje en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
 
   utter_baja_temporal:
     - text: "puedes tramitar tu baja temporal en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
