@@ -302,19 +302,19 @@ responses:
     - Ceredencial de estudiante"
 
   utter_Constancias:
-    -text: "puedes tramitar tu constancia en el siguiente enlace: http://148.204.56.120:8084/solicitudes/login"
+    - text: "puedes tramitar tu constancia en el siguiente enlace: http://148.204.56.120:8084/solicitudes/login"
 
   utter_baja_materia:
-    -text: "En este momento, ya no es posible dar de baja una unidad de aprendisaje en este periodo escolar, pero el siguiente siclo, si lo deseas puedes tramitar tu baja de unidad de aprendizaje en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
+    - text: "En este momento, ya no es posible dar de baja una unidad de aprendisaje en este periodo escolar, pero el siguiente siclo, si lo deseas puedes tramitar tu baja de unidad de aprendizaje en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
 
   utter_baja_temporal:
-    -text: "puedes tramitar tu baja temporal en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
+    - text: "puedes tramitar tu baja temporal en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSfmjNm7A6Rq--bPSb-_TkamOWrqnHtK_flIdYkFqM8CGgVbzA/closedform"
     
   utter_baja_definitiva:
-    -text: "puedes tramitar tu baja definitiva en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSf_QMIDCiLJvmZtajrLuDxdcn94fkpj_9V4WeeIV7uY0WCpIQ/viewform"
+    - text: "puedes tramitar tu baja definitiva en el siguiente enlace: https://docs.google.com/forms/d/e/1FAIpQLSf_QMIDCiLJvmZtajrLuDxdcn94fkpj_9V4WeeIV7uY0WCpIQ/viewform"
 
   utter_credencial:
-    -text: "si has extraviado tu credencial de estudiante, lapuedes tramitar en el siguiente enlace: https://www.ipn.mx/dae/tramites/credencial-institucional.html"
+    - text: "si has extraviado tu credencial de estudiante, la puedes tramitar en el siguiente enlace: https://www.ipn.mx/dae/tramites/credencial-institucional.html"
 
   utter_default:
     - text: "No tengo esa información en este momento. Te recomendaría preguntar en nuestro chatbot o contactar a 

@@ -222,9 +222,9 @@ rules:
     - intent: pregunta_tramites
     - action: utter_tramites
 
-- rule: Respoonder al intent '- intent: pregunta_constancia_inscripcion'
+- rule: Respoonder al intent 'pregunta_constancia_inscripcion'
   steps:
-    - intent: - intent: pregunta_constancia_inscripcion
+    - intent: pregunta_constancia_inscripcion
     - action: utter_Constancias
 
 - rule: Respoonder al intent 'pregunta_constancia_estudios'
