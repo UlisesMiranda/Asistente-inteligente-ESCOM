@@ -649,16 +649,18 @@ nlu:
 
 - intent: pregunta_ets
   examples: |
-    - ¿Cómo es el proceso de inscribirme al ETS?
-    - ¿Tienes información acerca del proceso de inscripcion al ETS?
-    - Dame informacion acerca del proceso para el ETS
-    - ¿Me podrías dar informacion sobre los ETS?
-    - ¿qué debo hacer para inscribirme a los ETS?
+    - ¿Cómo es el proceso de inscribirme al ets?
+    - ¿Tienes información acerca del proceso de inscripcion al ets?
+    - Dame informacion acerca del proceso para el ets
+    - ¿Me podrías dar informacion sobre los ets?
+    - ¿qué debo hacer para inscribirme a los ets?
     - ¿Cómo es el proceso de inscribirme al eteeses?
     - ¿Tienes información acerca del proceso de inscripcion al eteeses?
     - Dame informacion acerca del proceso para el eteeses
     - ¿Me podrías dar informacion sobre los eteeses?
     - ¿qué debo hacer para inscribirme a los eteeses?
+    - puedes darme informacion de los ets
+    - necesito detalles sobre los ets
 
 - intent: pregunta_tramites
   examples: |

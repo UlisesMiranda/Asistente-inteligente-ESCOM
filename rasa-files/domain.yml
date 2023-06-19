@@ -60,61 +60,64 @@ intents:
   - pregunta_tramite_credencial
 
 responses:
-#  utter_greet:
-#  - text: "Hey! How are you?"
+# utter_greet:
+# - text: "Hey! How are you?"
 #
-#  utter_cheer_up:
-#  - text: "Here is something to cheer you up:"
-#    image: "https://i.imgur.com/nGF1K8f.jpg"
+# utter_cheer_up:
+# - text: "Here is something to cheer you up:"
+# image: "https://i.imgur.com/nGF1K8f.jpg"
 #
-#  utter_did_that_help:
-#  - text: "Did that help you?"
+# utter_did_that_help:
+# - text: "Did that help you?"
 #
-#  utter_happy:
-#  - text: "Great, carry on!"
+# utter_happy:
+# - text: "Great, carry on!"
 #
-#  utter_goodbye:
-#  - text: "Bye"
+# utter_goodbye:
+# - text: "Bye"
 
   utter_iamabot:
-  - text: "Soy un bot realizado con Rasa."
+    - text: "Soy un bot impulsado por Rasa."
 
   utter_saludar:
-  - text: "Hola soy MR BOT.\nIntenta preguntar -¿Qué es ESCOM?"
+    - text: "Hola soy MR BOT.\n
+    
+    Intenta preguntar: -¿Qué es ESCOM?"
 
   utter_despedirse:
     - text: "Adios, espero haberte ayudado"
 
   utter_queEsEscom:
-  - text: "La Escuela Superior de Cómputo (ESCOM) es una institución pública mexicana de educación superior 
-  perteneciente al Instituto Politécnico Nacional que inició sus actividades académicas en 1993. En ESCOM se presenta el
-   programa de Ingeniería en Sistemas Computacionales, además de los programas de Ingeniería en Inteligencia Artificial 
-   y Licenciatura en Ciencia de Datos."
+    - text: "La Escuela Superior de Cómputo (ESCOM) es una institución pública mexicana de educación superior 
+    perteneciente al Instituto Politécnico Nacional que inició sus actividades académicas en 1993. En ESCOM se presenta el
+    programa de Ingeniería en Sistemas Computacionales, además de los programas de Ingeniería en Inteligencia Artificial 
+    y Licenciatura en Ciencia de Datos."
 
   utter_significadoESCOM:
-    - text: "ESCOM signfica: Escuela Superior de Computo"
+    - text: "ESCOM significa: Escuela Superior de Cómputo"
 
   utter_cuantasCarreras:
-  - text: "En ESCOM existen 4 programas acádemicos, donde 3 de ellos son en modalidad escolaridad, los cuales son:
-     Ingeniería en Sistemas Computacionales, Ingeniería en Inteligencia Artificial, Licenciatura en Ciencia de Datos e 
-     Ingenieria en Sistemas Automotrices"
+    - text: "En ESCOM existen 4 programas académicos, donde 3 de ellos son en modalidad escolarizada, los cuales son:
+    Ingeniería en Sistemas Computacionales, Ingeniería en Inteligencia Artificial, Licenciatura en Ciencia de Datos.\n 
+    
+    Por último, la carrera en modalidad no escolizarizada: Ingeniería en Sistemas Automotrices"
 
   utter_historiaEscom:
-  - text: "Después de varios intentos que se hicieron al respecto, en 1993 un grupo de trabajo integrado por la
-      Secretaría Académica del Instituto, elaboró un proyecto en el que se propuso la creación de la Escuela Superior
-      de Cómputo, bajo la sigla (ESCOM) y al interior de ella la carrera de Ingeniero en Sistemas Computacionales. 
-      Dicho documento fue presentado, en apego a la normatividad vigente, a la comisión de Planes y Programas del
-       Consejo Nacional Consultivo del IPN, el cual fue aprobado por la misma Comisión en la sesión del 5 de agosto 
-       de 1993. Contando con la autorización, el documento fue remitido al pleno del H. Consejo General Consultivo del 
-       IPN, en donde, fue aprobado en la Sesión Ordinaria del 13 de agosto de 1993 surgiendo así la Escuela Superior de Cómputo."
+    - text: "Después de varios intentos que se hicieron al respecto, en 1993 un grupo de trabajo integrado por la
+    Secretaría Académica del Instituto, elaboró un proyecto en el que se propuso la creación de la Escuela Superior
+    de Cómputo, bajo la sigla (ESCOM) y al interior de ella la carrera de Ingeniero en Sistemas Computacionales. 
+    Dicho documento fue presentado, en apego a la normatividad vigente, a la comisión de Planes y Programas del
+    Consejo Nacional Consultivo del IPN, el cual fue aprobado por la misma Comisión en la sesión del 5 de agosto 
+    de 1993. Contando con la autorización, el documento fue remitido al pleno del H. Consejo General Consultivo del 
+    IPN, en donde, fue aprobado en la Sesión Ordinaria del 13 de agosto de 1993 surgiendo así la Escuela Superior de Cómputo."
 
   utter_escudoEscom:
     - text: "Acerca del escudo. En el año de 1994,la dirección del plantel estableció un conjunto de lineamientos que 
     debía cumplir este distintivo y demás identificadores que le sirvieran como imagen oficial. Estos lineamientos fueron:
     Trazos claros y sencillos, Dar sensación de movimiento, No contener elementos tecnológicos, Tener posibilidad de larga vigencia, 
     Retratar bien en color o en blanco y negro. Dos estudiantes de la licenciatura en diseño gráfico de la UAM-Azcapotzalco,
-     apegados a los lineamientos generaron logotipos e imágenes, resultando ganador el presentado por la C. Guadalupe Gómez Sánchez,
-      durante el simposium Tecno-Industria ESCOM-95. En marzo de 2011 se incluyó la leyenda Instituto Politécnico Nacional."
+    apegados a los lineamientos generaron logotipos e imágenes, resultando ganador el presentado por la C. Guadalupe Gómez Sánchez,
+    durante el simposium Tecno-Industria ESCOM-95. En marzo de 2011 se incluyó la leyenda Instituto Politécnico Nacional."
 
   utter_quienDirector:
     - text: "El director es: M. en C. Andrés Ortigoza Campos"
@@ -167,37 +170,42 @@ responses:
 
   utter_vision:
     - text: "Visión: La Escuela Superior de Cómputo será líder en Latinoamérica en la formación integral de profesionales en el
-     área de la computación, con estándares internacionales de calidad educativa, promoviendo la responsabilidad en sus 
-     alumnos para con su entorno, el sentido social y el respeto a la pluralidad. Propiciando la innovación y el 
-     emprendimiento para contribuir al desarrollo económico y tecnológico del país."
+    área de la computación, con estándares internacionales de calidad educativa, promoviendo la responsabilidad en sus 
+    alumnos para con su entorno, el sentido social y el respeto a la pluralidad. Propiciando la innovación y el 
+    emprendimiento para contribuir al desarrollo económico y tecnológico del país."
 
   utter_politicaCalidad:
     - text: "ESCOM tiene como compromiso asegurar servicios educativos de calidad, mediante la oferta de programas académicos
-     pertinentes, que logren la satisfacción de las y los alumnos, en su formación integral como profesionistas competentes,
-      para contribuir al desarrollo científico, tecnológico, cultural y socioeconómico del país; sustentado en el cumplimiento
-       de los requisitos normativos aplicables y en el mantenimiento de la mejora continua del SGC."
+    pertinentes, que logren la satisfacción de las y los alumnos, en su formación integral como profesionistas competentes,
+    para contribuir al desarrollo científico, tecnológico, cultural y socioeconómico del país; sustentado en el cumplimiento
+    de los requisitos normativos aplicables y en el mantenimiento de la mejora continua del SGC."
 
   utter_ubicacion:
     - text: "La ESCOM se encuentra en la Av. Juan de Dios Bátiz s/n esq. Av. Miguel Othón de Mendizabal. Colonia Lindavista. Alcaldia: Gustavo A. 
     Madero. C. P. 07738. Ciudad de México."
 
   utter_mediosContactoEscom:
-    - text: "Los medios de contacto de ESCOM son los siguientes: \n Tel. 57296000 Ext. 46188\n
+    - text: "Los medios de contacto de ESCOM son los siguientes: \n 
+    
+    Tel. 57296000 Ext. 46188\n
+    
     direccion_escom@ipn.mx\n
+    
     Facebook: escomipnmx\n
+    
     Twitter: escomunidad"
 
   utter_conformacion-consejo-tecnico:
     - text: "Es formado por el Director, Subdirectores del plantel, Jefe de la SEPI, Jefes de Departamentos Académicos,
-     el Decano y los Representantes Sindicales de Docentes y Personal de Apoyo a la Educación; además de docentes representantes
-      de cada Departamento Académico, así como de alumnos representantes de todos los semestres."
+    el Decano y los Representantes Sindicales de Docentes y Personal de Apoyo a la Educación; además de docentes representantes
+    de cada Departamento Académico, así como de alumnos representantes de todos los semestres."
 
   utter_inteligencia_artificial:
     - text: "La carrera en ingenieria en inteligencias artificial tiene como objetivo formar expertos capaces de desarrollar
-     sistemas inteligentes utilizando diferentes metodologías en las diferentes etapas de desarrollo y aplicando algoritmos
-      en áreas como aprendizaje de máquina, procesamiento automático de lenguaje natural, visión artificial y modelos
-       bioinspirados para atender las necesidades de los diferentes sectores de la sociedad a través de la generación 
-       de procesos y soluciones innovadoras."
+    sistemas inteligentes utilizando diferentes metodologías en las diferentes etapas de desarrollo y aplicando algoritmos
+    en áreas como aprendizaje de máquina, procesamiento automático de lenguaje natural, visión artificial y modelos
+    bioinspirados para atender las necesidades de los diferentes sectores de la sociedad a través de la generación 
+    de procesos y soluciones innovadoras."
 
   utter_ciencias_datos:
     - text: "La carrera en licenciatura en ciencias de datos tiene como objetivo formar expertos capaces de extraer 
@@ -224,12 +232,19 @@ responses:
 
   utter_tramites_cosie:
     - text: "La COSIE proporciona documentos con los cuales puedes realizar los siguientes tramites:\n
+    
     - Solicitud para COSIE-CTCE-ESCOM\n
+    
     - Carta de Exposición de Motivos COSIE-CTCE-ESCOM\n
+    
     - Solicitud para COSIE-IPN\n
+    
     - Formato Inscripción con menos Créditos\n
+    
     - Solicitud de Dictamen de Inscripción con menos Créditos Semestre 2023-2\n
+    
     - Formato Inscripción con más Créditos\n
+    
     - Solicitud de Dictamen de Inscripción con más Créditos Semestre 2023-2\n\n
 
     Recuerda que en algunos casos deberás de presentarte en las instalaciones de la ESCOM para entregar los formatos que te 
@@ -239,16 +254,27 @@ responses:
   utter_miembros_cosie:
     - text: "La COSIE de la ESCOM actualmente está integrada por:\n
     - Presidente: M. en C. Andrés Ortigoza Campos\n
+    
     - Secretario: M. en C. José Asunción Enríquez Zárate\n
+    
     - M. en C. Iván Giovanny Mosso García\n
+    
     - SEPI\n
+    
     - Ing. Felipe de Jesús Figueroa del Prado\n
+    
     - Ing. María del Rosario Galeana Chávez (invitada)\n
+    
     - DCIC\n
+    
     - Ing. Tania Rodríguez Sarabia\n
+    
     - Profesor 1\n
+    
     - Profesor 2\n
+    
     - Alumno 1\n
+    
     - Alumno 2
     "
 
@@ -256,9 +282,14 @@ responses:
     - text: "SSEIS significa: Subdirección de Servicios Educativos e Integración Social y tiene como objetivo acercar los diferentes servicios que se ofrecen en la escuela a toda la ESCOMunidad. Dentro de las funciones que realiza la subdirección se encuentra la coordinación de los departamentos de: Gestión Escolar, Servicios Estudiantiles, Extensión y Apoyos Educativos y la Unidad Politécnica de Integración Social."
 
   utter_contactoGestionEscolar:
-    - text: "Puedes contacar con gestión a través de los siguientes medios:\nCorreo electrónico: sescolares_escom@ipn.mx\n
+    - text: "Puedes contacar con gestión a través de los siguientes medios:\n
+    
+    Correo electrónico: sescolares_escom@ipn.mx\n
+    
     Teléfono: Tel. 57296000 Ext. 52007\n
+    
     Ubicación: Edificio de gobierno, Planta Baja\n
+    
     Horario: De 9 a 15 horas y de 17 a 20 horas"
 
   utter_actividadesCulturales:
@@ -271,12 +302,19 @@ responses:
   utter_tiposDeBecas:
     - text: "En ESCOM puedes tener acceso a una gran variedad de becas, para ser acreedor de alguna de ellas debes estar atento a las convocatorias que se publican, donde encontrarás los procedimientos y documentos requeridos.\n
     Becas de manutención\n
+    
     Beca Excelencia/Telmex\n
+    
     Beca deportiva\n
+    
     Beca Institucional\n
+    
     Beca Bécalos\n
+    
     Transporte Institucional\n
+    
     Beca Cultural\n
+    
     Beca para la aprobación"
   
   utter_inscripciones:
@@ -300,22 +338,24 @@ responses:
     Aquí te dejo de todas maneras el link para acceder directamente al formato: https://www.escom.ipn.mx/SSEIS/gestionescolar/documentos/reinscripciones20232.pdf"
 
   utter_tramites:
-    - text: "Gestion Escolar tiene modulos para poder informar y relizar en linea los siguientes tramites:\n\n
-    - Constancias\n
-    \t- inscripción\n
-    \t- estudios\n
-    \t- periodo vacacional\n\n
+    - text: "Gestion Escolar tiene modulos para poder informar y realizar en linea los siguientes tramites:\n\n
+    - Constancia de inscripcion\n
+        
+    - Constancia de estudios\n
     
-    - Boletas\n
-    \t- informativas\n
-    \t- certificadas\n\n
+    - Constancia de periodo vacacional\n\n
     
-    - Bajas\n
-    \t- de materia\n
-    \t- temporal\n
-    \t- definitiva\n\n
+    - Boletas informativas\n
     
-    - Ceredencial de estudiante"
+    - Boletas certificadas\n\n
+    
+    - Bajas de materia\n
+    
+    - Baja temporal\n
+    
+    - Baja definitiva\n\n
+    
+    - Credencial de estudiante"
 
   utter_Constancias:
     - text: "Puedes tramitar tu constancia en el siguiente enlace: http://148.204.56.120:8084/solicitudes/login"
